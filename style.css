@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.game {
+  position: relative;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+.health-status {
+  width: 100%;
+  height: 150px;
+  border: 1px solid white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.health-status > div {
+  flex: 1;
+  border: 1px solid white;
+  height: 50px;
+  background-color: red;
+}
+
+.health-status .timer {
+  max-width: 150px;
+  height: 100px;
+  color: white;
+  display: grid;
+  place-content: center;
+  background-color: #121212;
+}
+
+.enemy-health {
+  display: flex;
+}
+
+.current-health {
+  background-color: rgb(93, 4, 183);
+  height: 100%;
+  width: 100%;
+}
